@@ -1,0 +1,141 @@
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+	background-color: #E8E8E8;
+}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Merriweather&display=swap" rel="stylesheet">
+
+h1 {
+font-family: 'Hedvig Letters Serif', serif;
+font-family: 'Merriweather', serif;}
+font-size: 48px;
+
+
+.h2 {
+font-family: 'Hedvig Letters Serif', serif;
+font-family: 'Merriweather', serif;}
+
+h3 {
+font-family: 'Hedvig Letters Serif', serif;
+font-family: 'Merriweather', serif;}
+a {
+    color: black;
+	background-color: transparent;
+border: 0px solid;
+border-color: none;
+  box-shadow: 1px 3px 4px #999;
+	border-radius: 3px;
+  padding: 5px 5px 0px 0px;
+	margin: 0em;
+  text-align: justify;
+font-size: 12px;
+font-family: "Avenir", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+
+  display: inline-block;
+
+
+}
+a:hover { 
+	background: floralwhite;
+	color: black;
+	border-color: rebeccapurple;
+}
+
+table {
+  font-family: avenir, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #eeee;
+}
+
+
+
+
+
+
+.tabs {
+}
+.tabs ul li a {
+	display: block;
+	background: url(img/blue-gradient.png) bottom left repeat-x transparent;
+	font-size: 0.85em;
+letter-spacing: 0.017em;
+	font-family: 'Poppins', sans-serif;
+	padding: 1em 0.5em 0;
+	line-height: 2em;
+	position: relative;
+	top: 1px;
+	left: 1px;
+	border-bottom: 1px solid #A7D7F9;
+}
+
+
+.tabs ul li a.active {
+	background: #FFF;
+	border-bottom-color: transparent;
+}
+.tabs ul {
+	display: inline-block;
+	background: url(img/tab-separator.png) repeat-x top left transparent;
+	letter-spacing: 0;
+	margin: 0;
+	padding: 0 1px 0 0;
+}
+.tabs ul li {
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+	display: inline-block;
+	float: left;
+	margin: 0 1px 0 0px;
+	
+}
+.tabs ul {
+}
+.tabsLeft {
+	line-height: 0;
+	float: left;
+}
+.contentsPanel ul li span {
+	display: inline-block;
+	margin-right: 8px;
+}
+.contentsPanel ul li {
+}
+.contentsPanel ul {
+	padding: 0 0 5px 5px;
+}
+.contentsPanel ul li ul{
+}
+.contentsPanel ul li ul li {
+	padding: 0 0 0 25px;
+}
+.showPanel {
+	display: none;
+}
+.minimizedPanel .showPanel {
+	display: block;
+}
+.minimizedPanel .hidePanel {
+	display: none
+}
+.contentsPanel.minimizedPanel {
+	width: 130px;
+}
+.minimizedPanel .contentsHeader {
+	text-align: left;
+}
