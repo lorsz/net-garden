@@ -94,15 +94,17 @@ h1 {
 font-family: 'Hedvig Letters Serif', serif;
 font-family: 'Merriweather', serif;}
 font-size: 48px;
+}
 
-
-.h2 {
+h2 {
 font-family: 'Hedvig Letters Serif', serif;
-font-family: 'Merriweather', serif;}
+font-family: 'Merriweather', serif;
+}
 
 h3 {
 font-family: 'Hedvig Letters Serif', serif;
-font-family: 'Merriweather', serif;}
+font-family: 'Merriweather', serif;
+}
 a {
     color: black;
 	background-color: #c4b8ff80;
@@ -228,104 +230,3 @@ a:hover {
     /* Style adjustments for high resolution devices */
 }
 
-/* ==========================================================================
-   Print styles.
-   Inlined to avoid the additional HTTP request:
-   http://www.phpied.com/delay-loading-your-print-css/
-   ========================================================================== */
-
-@media print {
-    *,
-    *:before,
-    *:after,
-    *:first-letter,
-    *:first-line {
-        background: transparent !important;
-        color: #000 !important; /* Black prints faster:
-                                   http://www.sanbeiji.com/archives/953 */
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
-
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
-
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
-
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
-
-    /*
-     * Don't show links that are fragment identifiers,
-     * or use the `javascript:` pseudo protocol
-     */
-
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
-        content: "";
-    }
-
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
-
-    /*
-     * Printing Tables:
-     * http://css-discuss.incutio.com/wiki/Printing_Tables
-     */
-
-    thead {
-        display: table-header-group;
-    }
-
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
-
-    img {
-        max-width: 100% !important;
-    }
-
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
-
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
-}
-h1 {
-  font-family: "Menlo", sans-serif;
-  font-weight: normal;
-    font-size: 2em;
-  margin: 0.67em 0;
-
-}
-
-a {
-  color:#F42FA0;
-background-color:none;
-  text-decoration: underline;
-  font-family: "Menlo";
-}
-a:visited {
-  color: #41403e;
-  color: var(--primary);
-  text-decoration: none;
-}
-body
-{
-background-color: #E8E8E8;
-}
